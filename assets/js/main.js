@@ -60,3 +60,13 @@
   });
 
 })(jQuery);
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Informacion de contacto:", 10, 50);;
+
+var c2 = document.getElementById("myCanvas2");
+var ctx2 = c2.getContext("2d");
+ctx2.font = "30px Arial";
+ctx2.fillText("Mi startUp:", 10, 50);;
