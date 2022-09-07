@@ -2,7 +2,7 @@
 !(function($) {
   "use strict";
 
-  // Preloader
+ 
   $(window).on('load', function() {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
@@ -42,7 +42,7 @@
       aos_init();
     });
 
-    // Initiate venobox (lightbox feature used in portofilo)
+
     $(document).ready(function() {
       $('.venobox').venobox();
     });
