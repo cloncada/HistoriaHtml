@@ -104,11 +104,25 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 
-
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
 
 #header .logo a {
   color: #2d405f;
 }
+
+
+
+
+
+
 
 
 
@@ -157,6 +171,7 @@ section {
   background: #dde1f8;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 
 #footer .social-links a:hover {
   background: #3b4ef8;
